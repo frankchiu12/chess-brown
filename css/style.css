@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: #CEEDC7;
     background-image: url("https://i.imgur.com/kdTOiwv.png");
@@ -14,6 +19,18 @@ h2 {
     font-size: 3rem;
     font-weight: 900;
     padding: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
 }
 
 .title {
@@ -35,13 +52,24 @@ h2 {
 #about-us {
     width: 70%;
     margin: 20px auto 20px auto;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     background-color: #F1F7B5;
-    border-radius: 25px;
+    border-radius: 10%;
 }
 
 #about-us:hover {
     background-color: lightgreen;
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+#leadership-team {
+    text-align: center;
+}
+
+.face-photo {
+    width: 20rem;
+    height: 22.5rem;
+    border-radius: 10%;
+    padding: 0 10px;
 }
