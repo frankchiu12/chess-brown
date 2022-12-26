@@ -16,14 +16,13 @@
 </head>
 
 <body>
-    <section>
+    <section id="home">
         <div class="container-fullwidth" style="padding: 0 3%">
             <nav class="navbar navbar-expand-md navbar-light" style="margin:auto">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#home">
                     <img src="image/logo.svg" alt="logo" style="width:6rem; height:6rem">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
-                    aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapse">
@@ -33,6 +32,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#leadership-team">Leadership Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#photo-gallery">Photo Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-us">Contact Us</a>
@@ -120,6 +122,35 @@
         </div>
         <img src="image/fallen-piece.png" style="width:25rem; height:auto; display:-webkit-box;margin-left: auto"
             alt="fallen-piece">
+    </section>
+
+    <section id="photo-gallery">
+        <h2>Photo Gallery</h2>
+        <div id="photo_carousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="image/magnus.png" class="photo" alt="magnus">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="image/gold-board.png" class="photo" alt="gold-board">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="image/game_6.png" class="photo" alt="game_6">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#photo_carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photo_carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
     </section>
 
     <section id="contact-us">
