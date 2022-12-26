@@ -68,3 +68,15 @@ img {
     height: 22.5rem;
     border-radius: 10%;
 }
+
+#contact-us {
+    text-align: center;
+}
+
+.contact-site {
+    padding: 10px;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
+}
