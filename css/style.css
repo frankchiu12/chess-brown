@@ -1,7 +1,10 @@
 body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
     background-color: #CEEDC7;
-    background-image: url("https://i.imgur.com/kdTOiwv.png");
+    /* background-image: url("https://i.imgur.com/kdTOiwv.png"); */
+    /* background-image: url("https://i.imgur.com/pz0kEbN.png"); */
+    background-image: url("https://i.imgur.com/h6LjWeg.png");
 }
 
 h1 {
@@ -45,7 +48,7 @@ img {
     border-right: 1px solid #000;
 }
 
-#about-us {
+.about-us-box {
     width: 70%;
     margin: 20px auto 20px auto;
     padding: 20px;
@@ -54,12 +57,12 @@ img {
     border-radius: 10%;
 }
 
-#about-us:hover {
+.about-us-box:hover {
     background-color: lightgreen;
     transform: scale(1.05);
 }
 
-#leadership-team {
+#leadership {
     text-align: center;
 }
 
@@ -84,8 +87,8 @@ img {
 .knight {
     width: 15rem;
     height: auto; 
-    float: left;
-    position: relative;
+    display:-webkit-box;
     margin-left: -7.5%;
     padding: 20px;
+    display: block;
 }
