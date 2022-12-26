@@ -40,6 +40,30 @@ img {
     font-size: 1.25rem;
 }
 
+.chess-piece {
+    width: 40rem;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    .chess-piece {
+        width: 30rem; 
+        height: auto;
+    }
+}
+
+.chess-board {
+    width: 45rem;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    .chess-board {
+        width: 30rem; 
+        height: auto;
+    }
+}
+
 .box {
     background-color: #DEF5E5;
     border-left: 1px solid #000;
