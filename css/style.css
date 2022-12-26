@@ -80,3 +80,12 @@ img {
 .contact-icon:hover {
     transform: scale(1.2);
 }
+
+.knight {
+    width: 15rem;
+    height: auto; 
+    float: left;
+    position: relative;
+    margin-left: -7.5%;
+    padding: 20px;
+}
