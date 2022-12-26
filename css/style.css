@@ -1,9 +1,5 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 body {
+    overflow-x: hidden;
     background-color: #CEEDC7;
     background-image: url("https://i.imgur.com/kdTOiwv.png");
 }
@@ -36,7 +32,7 @@ img {
 .title {
     text-align: center;
     font-weight: 900;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .nav-item {
@@ -70,6 +66,5 @@ img {
 .face-photo {
     width: 20rem;
     height: 22.5rem;
-    border-radius: 10%;
-    padding: 0 10px;
+    border-radius: 20%;
 }
