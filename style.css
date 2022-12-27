@@ -107,3 +107,7 @@ img {
 .emphasis {
     font-style: italic;
 }
+
+.h1-clicked {
+    color: white;
+}
