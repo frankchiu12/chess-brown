@@ -11,7 +11,7 @@ function typeWriter() {
 }
 
 typeWriter();
-$("h1").addClass("emphasis")
+$("h1").addClass("emphasis");
 
 $(".click-sound").click(function() {
     var audio = new Audio("sounds/click.mp3");
