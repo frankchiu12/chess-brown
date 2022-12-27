@@ -103,3 +103,7 @@ img {
     margin-left: -7.5%;
     padding: 20px;
 }
+
+.emphasis {
+    font-style: italic;
+}
