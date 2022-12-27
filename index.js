@@ -24,5 +24,5 @@ $("h1").click(function() {
     title.addClass("h1-clicked");
     setTimeout(function() {
         title.removeClass("h1-clicked");
-    }, 200);
+    }, 300);
 })
