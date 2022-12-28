@@ -12,16 +12,16 @@ function typeWriter() {
 
 typeWriter();
 
-$(".click-sound").click(function() {
+$(".click-sound").click(function () {
     var audio = new Audio("sounds/click.mp3");
     audio.volume = 0.25;
     audio.play();
 })
 
-$("h1").click(function() {
+$("h1").click(function () {
     var title = $("h1");
     title.addClass("h1-clicked");
-    setTimeout(function() {
+    setTimeout(function () {
         title.removeClass("h1-clicked");
     }, 300);
 })
