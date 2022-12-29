@@ -1,1 +1,1 @@
-used HTML, CSS, Bootstrap, Javascript, jQuery, Node.js, Express, etc.
+utilized HTML, CSS, Bootstrap, Javascript, jQuery, Node.js, Express, etc.
