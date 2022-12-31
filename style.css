@@ -1,5 +1,9 @@
+body,
+html {
+  x-overflow: hidden;
+}
+
 body {
-  overflow-x: hidden;
   scroll-behavior: smooth;
   background-color: #ceedc7;
   background-image: url("images/background.png");
