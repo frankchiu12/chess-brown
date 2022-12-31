@@ -1,6 +1,6 @@
 body,
 html {
-  x-overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
