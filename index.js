@@ -12,6 +12,8 @@ function typeWriter() {
 
 typeWriter();
 
+document.querySelector("body").setAttribute("style", "overflow-x: hidden");
+
 $(".click-sound").click(function () {
     var audio = new Audio("sounds/click.mp3");
     audio.volume = 0.25;
