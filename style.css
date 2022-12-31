@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-family: "Merriweather";
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 900;
   padding: 20px 0;
 }
@@ -100,24 +100,26 @@ img {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 12vw;
+  }
   h2 {
-    font-size: 3rem;
+    font-size: 8vw;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 5vw;
   }
   h4 {
-    font-size: 1.25rem;
+    font-size: 4vw;
   }
   p {
-    font-size: 1.25rem;
+    font-size: 4vw;
   }
   .chess-piece {
     max-width: 20rem;
     height: auto;
     padding: 20px;
   }
-
   .chess-board {
     max-width: 20rem;
     height: auto;
